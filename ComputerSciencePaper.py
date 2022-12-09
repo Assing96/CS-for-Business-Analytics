@@ -379,7 +379,7 @@ And the average scores over all bootstraps are returned.
 
 print("Below are the average performance measures over 5 bootstraps for different fraction of comparisons")
 
-bootstrap = 1
+bootstrap = 5
 number_of_bands = 360
 average_bootstrap_size = []
 average_fraction_of_comparison = []
