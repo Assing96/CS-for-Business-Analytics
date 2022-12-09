@@ -22,16 +22,17 @@ The code is divided into 4 sections and each section is separated with a section
 - In section 4, the average performance measures over different bootstraps are computed for a variety of fraction of comparisons. Run this section if you are only interested in the final results.
 
 ## Code usage guides
-In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath. If these steps are correctly done, then the code can basically be ran without any further modifications to give the replication of the results shown in the paper. Do notice that there are some randomnes involved due to random bootstrapping hence the results can not be 100% replicated. In case the user is interested in the results for different inputs, read the steps below:
+In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath. If these steps are correctly done, then the code can be executed without any further modifications to give the replication of the results shown in the paper. Do notice that there are some randomnes involved due to random bootstrapping hence the results can not be 100% replicated. In case the user is interested in the results for different inputs, read the steps below:
 
 - Section 1 and 2 of the code do not need modification as they are predefined. 
 - For section 3, if one wants to see different outputs for one bootstrap sample. He can modify the input for the part `b = 122` in line 309 of the code in order to run for different fraction of comparisons. To change the clustering structure, change the parameter distance_threshold of `hierachical_clustering_bootstrap = AgglomerativeClustering(n_clusters=None, affinity="precomputed", linkage="complete", distance_threshold=0.4)` in line 353.
 - If the user wants to use a different number of bootstraps in section 4, just modifty `bootstrap = 5` in line 382. 
 
 ## Screenshots from results
-If Section 3 of the code is ran correctly, it should give the user output like this:
+If Section 3 of the code is performed correctly, it should give the user output like this:
 ![Screenshot_3](https://user-images.githubusercontent.com/113337636/206700119-d844b19c-68e5-4e7e-acdc-83901c0f030d.png)
 ![Screenshot_1](https://user-images.githubusercontent.com/113337636/206700154-966eb502-1320-43b1-9c90-7c1d11fef838.png)
+If Section 4 of the code is performed correctly, an example output should be given like this:
 
 
 
