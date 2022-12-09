@@ -13,5 +13,5 @@ sites,  it is necessary to perform duplicate detection. Due to the ever increasi
 
 
 ## Code structure
-The code is divided into 4 sections each section separated with a section number and dash line. An example: 
-" # Section X-------------------------------------------------------------------------------------------------------------"
+The code is divided into 4 sections each section separated with a section number and dash line. An example is: 
+" # Section 2-------------------------------------------------------------------------------------------------------------"
