@@ -16,4 +16,4 @@ sites,  it is necessary to perform duplicate detection. Due to the ever increasi
 The code is divided into 4 sections each section separated with a section number and dash line. An example is: 
 " # Section 2-------------------------------------------------------------------------------------------------------------"
 
-- In Section 1 of the code, the data is imported and cleaned to increase the effectiveness of the algorithm.
+- In Section 1 of the code, the data is imported and cleaned to increase the effectiveness of the algorithm. The cleaning procedure is explained under methods in the paper.
