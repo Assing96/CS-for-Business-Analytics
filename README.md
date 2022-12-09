@@ -22,9 +22,9 @@ The code is divided into 4 sections and each section is separated with a section
 - In section 4, the average performance measures over different bootstraps are computed for a variety of fraction of comparisons. Run this section if you are only interested in the final results.
 
 ## Code usage guides
-In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath.
+In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath.If these steps are correctly done, then the code can basically be ran without any further modifications to give the replication of the results shown in the paper. Do notice that there are some randomnes involved due to random bootstrapping hence the results can not be 100% replicated. In case the user is interested in the results for different inputs, read the steps below:
 
 - Section 1 and 2 of the code do not need modification as they are predefined. 
 - For section 3, if one wants to see different outputs for one bootstrap sample. He can modify the input for the part `b = 122` in line 309 of the code in order to run for different fraction of comparisons. To change the clustering structure, change the parameter distance_threshold of `hierachical_clustering_bootstrap = AgglomerativeClustering(n_clusters=None, affinity="precomputed", linkage="complete", distance_threshold=0.4)` in line 353.
-- If the user wants to use a different number of bootstraps in section 4, just modifty `bootstrap = 5` in line 382
+- If the user wants to use a different number of bootstraps in section 4, just modifty `bootstrap = 5` in line 382. 
 
