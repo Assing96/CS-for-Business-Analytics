@@ -18,3 +18,4 @@ The code is divided into 4 sections each section separated with a section number
 
 - In Section 1 of the code, the data is imported and cleaned to increase the effectiveness of the algorithm. The cleaning procedure is explained under methods in the paper.
 - In Section 2 of the code, all the neccessary methods and function is created. The core methods to look for are `binaryMatrix`, `minHashing`, `LSH` and `Replicate`. Under `Replicate` the LSH and clustering are performed.
+- In Section 3 of the code, the algorithms are performed and results are calculated over 1 bootstrap sample, and the structure of the clusters are also printed. This section is interesting if the user wants to have a very detailed insight into how the clusters are formed and the different metrics of the evaluation measure. It can also be used for the user to check the quality of the clusters.
