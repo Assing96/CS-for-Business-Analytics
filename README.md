@@ -30,8 +30,9 @@ In order to use the code, first make sure the packages `collections`, `itertools
 
 ## Screenshots from results
 If Section 3 of the code is ran correctly, it should give the user output like this:
-![Screenshot_1](https://user-images.githubusercontent.com/113337636/206700154-966eb502-1320-43b1-9c90-7c1d11fef838.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/113337636/206700119-d844b19c-68e5-4e7e-acdc-83901c0f030d.png)
+![Screenshot_1](https://user-images.githubusercontent.com/113337636/206700154-966eb502-1320-43b1-9c90-7c1d11fef838.png)
+
 
 
 
