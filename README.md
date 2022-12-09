@@ -33,6 +33,7 @@ If Section 3 of the code is performed correctly, it should give the user output 
 ![Screenshot_3](https://user-images.githubusercontent.com/113337636/206700119-d844b19c-68e5-4e7e-acdc-83901c0f030d.png)
 ![Screenshot_1](https://user-images.githubusercontent.com/113337636/206700154-966eb502-1320-43b1-9c90-7c1d11fef838.png)
 If Section 4 of the code is performed correctly, an example output should be given like this:
+![image](https://user-images.githubusercontent.com/113337636/206701576-18eada10-874a-4a38-a87b-fb79e5a76b05.png)
 
 
 
