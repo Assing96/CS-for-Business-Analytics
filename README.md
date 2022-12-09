@@ -21,5 +21,9 @@ The code is divided into 4 sections and each section is separated with a section
 - In Section 3 of the code, the algorithms are performed and results are calculated over 1 bootstrap sample, and the structure of the clusters are also printed. This section is interesting if the user wants to have a very detailed insight into how the clusters are formed and the different metrics of the evaluation measure. It can also be used for the user to check the quality of the clusters.
 - In section 4, the average performance measures over different bootstraps are computed for a variety of fraction of comparisons. Run this section if you are only interested in the final results.
 
-## Code structure
-In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE.
+## Code usage guides
+In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath.
+
+- Section 1 and 2 of the code do not need modification as they are predefined. 
+- To use the code for different parameters for 1 bootstrap, one can modify the input for the part `b = 122` in line 309 of the code.
+
