@@ -10,3 +10,8 @@ sites,  it is necessary to perform duplicate detection. Due to the ever increasi
 * [Code usage guide](#features)
 * [Screenshots from results](#screenshots)
 <!-- * [License](#license) -->
+
+
+## Code structure
+The code is divided into 4 sections each section separated with a section number and dash line. An example: 
+# Section X-------------------------------------------------------------------------------------------------------------
