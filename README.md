@@ -17,4 +17,4 @@ The code is divided into 4 sections each section separated with a section number
 " # Section 2-------------------------------------------------------------------------------------------------------------"
 
 - In Section 1 of the code, the data is imported and cleaned to increase the effectiveness of the algorithm. The cleaning procedure is explained under methods in the paper.
-- In Section 2 of the code, all the neccessary methods and function is created. The core methods to look for are `binaryMatrix`, `minHashing`, `LSH` and `Replicate`.
+- In Section 2 of the code, all the neccessary methods and function is created. The core methods to look for are `binaryMatrix`, `minHashing`, `LSH` and `Replicate`. The clustering algorithm is used under `Replicate`.
