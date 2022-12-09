@@ -25,5 +25,5 @@ The code is divided into 4 sections and each section is separated with a section
 In order to use the code, first make sure the packages `collections`, `itertools`, `random`, `re`, `sys`, `nltk`, `heapq`, `numpy`, `pandas`, `json`, `sklearn.cluster`, `math`, `statistics` and `matplotlib.pyplot` are installed correctly on the python IDE. And make sure the data is imported from the correct filepath.
 
 - Section 1 and 2 of the code do not need modification as they are predefined. 
-- To use the code for different parameters for 1 bootstrap, one can modify the input for the part `b = 122` in line 309 of the code.
+- If one wants to see different outputs for one bootstrap sample. He can modify the input for the part `b = 122` in line 309 of the code in order to run for different fraction of comparisons. To change the clustering structure, change the parameter distance_threshold of `hierachical_clustering_bootstrap = AgglomerativeClustering(n_clusters=None, affinity="precomputed", linkage="complete", distance_threshold=0.4)` in line 353.
 
